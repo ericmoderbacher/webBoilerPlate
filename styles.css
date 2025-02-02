@@ -5,6 +5,6 @@ h3 + em,
 h4 + em,
 h5 + em,
 h6 + em {
-    transform: rotate(-90deg); /* Rotate the text */
-    display: inline-block; /* Inline elements need this for transforms */
+    transform: rotate(-90deg) !important;
+    color: red !important;
 }
