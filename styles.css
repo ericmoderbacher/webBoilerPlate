@@ -1,0 +1,11 @@
+/* have italics display as a subtitle when under a heading */
+h1 + em,
+h2 + em,
+h3 + em,
+h4 + em,
+h5 + em,
+h6 + em {
+    margin-top: -10px;   /* Move closer to the heading */
+    display: block;      /* Ensure it appears on a new line */
+    font-style: italic;  /* Optional - in case the Markdown renderer doesn't italicize correctly */
+}
