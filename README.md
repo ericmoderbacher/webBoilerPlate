@@ -1,9 +1,9 @@
 ---
 title: webBoilerPlateMDFile
 layout: default
-# Optional: if using a static generator like Jekyll (enabled by default with GitHub Pages)
-css: styles.css
 ---
+<link rel="stylesheet" href="styles.css">
+
 
 
 # webBoilerPlate
