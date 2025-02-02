@@ -1,5 +1,5 @@
 /* have italics display as a subtitle when under a heading */
 h1 {
-    transform: rotate(-90deg) !important;
-    color: red !important;
+    color: red; /* Makes h1 headings red */
+    margin-bottom: 10px; /* Reduces the spacing under h1 */
 }
