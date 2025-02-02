@@ -5,7 +5,7 @@ h3 + em,
 h4 + em,
 h5 + em,
 h6 + em {
-    margin-top: -10px;   /* Move closer to the heading */
+    margin-top: -100px;   /* Move closer to the heading */
     display: block;      /* Ensure it appears on a new line */
-    font-style: italic;  /* Optional - in case the Markdown renderer doesn't italicize correctly */
+    font-style: oblique 90deg;  /* Optional - in case the Markdown renderer doesn't italicize correctly */
 }
