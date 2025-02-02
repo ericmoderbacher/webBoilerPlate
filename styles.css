@@ -1,10 +1,5 @@
 /* have italics display as a subtitle when under a heading */
-h1 + em,
-h2 + em,
-h3 + em,
-h4 + em,
-h5 + em,
-h6 + em {
+h1 {
     transform: rotate(-90deg) !important;
     color: red !important;
 }
